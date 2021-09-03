@@ -1,0 +1,140 @@
+$pixels: 16px;
+@function calc-px($px) {
+  @return $px/$pixels+rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: Montserrat;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &-background__desktop{
+    width: 103%;
+    position: absolute;
+    top: -2rem;
+    left: -3rem;
+  }
+  &-background__phone{
+    display: none;
+  }
+  .logo{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+  }
+  .light-start{
+    width: 28rem;
+    transition: 0.2s;
+    z-index: 100;
+    margin-bottom: 6rem;
+    margin-right: 5rem;
+    img{
+      width: 100%;
+    }
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+  }
+  .fitness{
+    width: 28rem;
+    transition: 0.2s;
+    z-index: 100;
+    img{
+      width: 100%;
+    }
+    &:hover{
+      transform: scale(1.1);
+      transition: 0.2s;
+    }
+  }
+  .question{
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s;
+    img{
+      margin-left: 1rem;
+    }
+    &:hover{
+      text-decoration: underline;
+
+    }
+
+    p{
+      font-style: normal;
+      font-weight: bold;
+      font-size: calc-px(19.5px);
+      display: flex;
+      align-items: center;
+      color: #535353;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container{
+    overflow-y: scroll;
+    height: 110vh;
+    flex-direction: column;
+    &-background__desktop{
+      display: none;
+    }
+    &-background__phone{
+      display: block;
+      width: 103%;
+      position: fixed;
+      top: 0rem;
+      left: 0rem;
+    }
+    .logo{
+      margin: 0 auto;
+      margin-top: 3rem;
+      width: 6rem;
+
+      position: unset;
+      z-index: 100;
+    }
+    .light-start{
+      width: 90%;
+      margin-top: 3rem;
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+    .fitness{
+      width: 90%;
+      margin-bottom: 2rem;
+      margin-top: 3rem;
+
+    }
+
+    .question{
+      background: #FFFFFF;
+      border-radius: 10em;
+      justify-content: space-between;
+      position: unset;
+      padding: 0.3rem;
+      left: 23%;
+      z-index: 100;
+      margin-bottom: 2rem;
+
+    }
+  }
+}
+
