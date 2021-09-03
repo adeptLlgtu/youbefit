@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/youbefit/precache-manifest.108255a5e23ff0fb7e1d25a6eb011901.js"
+  "youbefit/precache-manifest.a809a11306859202c4090425eaebdf1d.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "youbefit"});
