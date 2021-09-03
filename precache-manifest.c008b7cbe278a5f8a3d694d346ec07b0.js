@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "youbefit/Montserrat/Montserrat.css"
   },
   {
-    "revision": "631977abe5c92b45c056",
+    "revision": "0ea941b2cbe9c7d50965",
     "url": "youbefit/css/app.dab31650.css"
   },
   {
@@ -104,12 +104,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "youbefit/img/telegram.062ced32.svg"
   },
   {
-    "revision": "c8522aafa4148b678a35d336c46b5907",
+    "revision": "f19113d684d473010f8449ef8ee6c85f",
     "url": "youbefit/index.html"
   },
   {
-    "revision": "631977abe5c92b45c056",
-    "url": "youbefit/js/app.546d88cd.js"
+    "revision": "0ea941b2cbe9c7d50965",
+    "url": "youbefit/js/app.c2b0d9db.js"
   },
   {
     "revision": "7ea6920f9ab8f0b04274",
