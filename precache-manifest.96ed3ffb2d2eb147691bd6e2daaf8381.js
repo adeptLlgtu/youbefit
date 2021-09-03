@@ -72,44 +72,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "youbefit/Montserrat/Montserrat-ThinItalic.ttf"
   },
   {
-    "revision": "2dd990432f9f52abdec64dcd4e54cc09",
+    "revision": "0467a5404d6a3ead34c4bc3190abbb4f",
     "url": "youbefit/Montserrat/Montserrat.css"
   },
   {
-    "revision": "0ea941b2cbe9c7d50965",
+    "revision": "ea35f6f11ab641e3e95f",
     "url": "youbefit/css/app.dab31650.css"
   },
   {
-    "revision": "fe4b17c6c75a82da4ef9f6eb43e89d31",
-    "url": "youbefit/img/background-desktop.fe4b17c6.svg"
+    "revision": "965cfbeba972ac6a9e786e7c5a3b1602",
+    "url": "youbefit/img/background-desktop.965cfbeb.svg"
   },
   {
-    "revision": "0710fd52f3452bbc19f8bfdbfa9c43b5",
-    "url": "youbefit/img/background-phone.0710fd52.svg"
+    "revision": "74fecb28171268a15e41f948c2319a97",
+    "url": "youbefit/img/background-phone.74fecb28.svg"
   },
   {
-    "revision": "80a7f54d48781f3b509500ba18ad1a8e",
-    "url": "youbefit/img/fitnes.80a7f54d.svg"
+    "revision": "da521e3be532e17adebed2935d14d8ed",
+    "url": "youbefit/img/fitnes.da521e3b.svg"
   },
   {
-    "revision": "4a7dbb97312f3502875e89ec0e042664",
-    "url": "youbefit/img/light-start.4a7dbb97.svg"
+    "revision": "136988cc51ef671ecebe9f1fb2c8fa80",
+    "url": "youbefit/img/light-start.136988cc.svg"
   },
   {
-    "revision": "966cd793fd577470a489a597250f9d71",
-    "url": "youbefit/img/logo.966cd793.svg"
+    "revision": "7b7d62e7f964e62512064b19f5c17fd1",
+    "url": "youbefit/img/logo.7b7d62e7.svg"
   },
   {
-    "revision": "062ced329ff66e401a7f2cc4809d8953",
-    "url": "youbefit/img/telegram.062ced32.svg"
+    "revision": "ae295690fef643d5096813e8236c4828",
+    "url": "youbefit/img/telegram.ae295690.svg"
   },
   {
-    "revision": "f19113d684d473010f8449ef8ee6c85f",
+    "revision": "1d11981209045d05e886393a8b99e770",
     "url": "youbefit/index.html"
   },
   {
-    "revision": "0ea941b2cbe9c7d50965",
-    "url": "youbefit/js/app.c2b0d9db.js"
+    "revision": "ea35f6f11ab641e3e95f",
+    "url": "youbefit/js/app.e356174e.js"
   },
   {
     "revision": "7ea6920f9ab8f0b04274",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "youbefit/manifest.json"
   },
   {
-    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
+    "revision": "735ab4f94fbcd57074377afca324c813",
     "url": "youbefit/robots.txt"
   }
 ]);
